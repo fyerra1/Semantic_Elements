@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/********* Header  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,9 @@ body {
     color: #d9dcd6;
 }
 
-    .header nav {
+/******** Nav Bar  */
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,11 @@ body {
     font-size: 20px;
 }
 
-    .header nav ul {
+.header nav ul {
     list-style-type: none;
 }
 
-    .header nav ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,9 +49,8 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+
+/******** Page Image */
 
 .hero {
     height: 800px;
@@ -59,31 +61,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+/******** Main/Sections  */
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Will display elements as an inline-level block container */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
 }
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
@@ -104,6 +88,36 @@ p {
     font-size: 36px;
 }
 
+/* Vertically centers images to the left of a section*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Vertically centers images to the right of a section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/******** Aside */
+
+/* Will display elements to the right side of the page */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -114,11 +128,14 @@ p {
     text-align: center;
 }
 
+/* Will fit images within "Aside" borders */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;  
 }
+
+/******** Footer  */
 
 .footer {
     padding: 30px;
